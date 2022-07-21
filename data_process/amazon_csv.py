@@ -2,7 +2,7 @@
 """
 Methods to processing the amazon review dataset.
 """
-import _pickle as pickle
+import pickle as pickle
 import gc
 import gzip
 import json
@@ -391,8 +391,8 @@ def form_cross_domain_sets(file_a, file_b, a_name, b_name, out_path):
 if __name__ == "__main__":
     '''                preprocessing of the Amazon datasets                '''
     # download the following datasets from: https://nijianmo.github.io/amazon/index.html
-    data_dir = "/Users/chain/git/Recommendation/Amazon_data"
-    out_dir = "/Users/chain/git/Recommendation/Amazon_data/guru"
+    data_dir = "H:\COBA-COBA\Python Project\ml project\Datasets"
+    out_dir = "H:\COBA-COBA\Python Project\ml project\Datasets/guru"
     movie_source = os.path.join(data_dir, "Movies_and_TV_5.json.gz")
     sport_source = os.path.join(data_dir, "Movies_and_TV_5.json.gz")
 

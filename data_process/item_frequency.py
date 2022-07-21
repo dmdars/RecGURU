@@ -4,7 +4,7 @@ NOT IN USE, see amazon_csv.py and business_process.py
 """
 
 import os
-import _pickle as pickle
+import pickle as pickle
 
 
 def load_pickle(filename):

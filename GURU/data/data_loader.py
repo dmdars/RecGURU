@@ -4,7 +4,7 @@ Data loader:
 """
 import torch.utils.data as data
 import torch
-import _pickle as pickle
+import pickle as pickle
 import numpy as np
 from torch.utils.data.dataloader import default_collate
 from torch import FloatTensor as FT
